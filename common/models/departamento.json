@@ -7,7 +7,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "nome": {
+    "nomes": {
       "type": "string",
       "required": true
     },

@@ -1,0 +1,29 @@
+{
+  "name": "Departamento",
+  "plural": "Departamentos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "empresa": {
+      "type": "belongsTo",
+      "model": "Empresa",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
